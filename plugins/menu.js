@@ -70,21 +70,21 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
     }
     conn.menu = conn.menu ? conn.menu : {}
     let before = conn.menu.before || `
-╭─「 ${conn.user.name} 」
-│ Hai, %name!
+ᐉ─「 ${conn.user.name} 」
+➼ Hai, %name!
 │
-│ *%exp XP*
+➼ *%exp XP*
 │ Tersisa *%limit Limit*
 │
-│ Tanggal: *%week %weton, %date*
-│ Waktu: *%time*
+◪ Tanggal: *%week %weton, %date*
+◪ Waktu: *%time*
 │
-│ Uptime: *%uptime* (*%muptime*)
-│ Database: %rtotalreg of %totalreg
-│ Instagram: https://bit.ly/3uG9eF4
-│ Whatsapp: https://wa.me/6285875158363
-│ Youtube: https://bit.ly/3r66YEX
-╰────
+➼ Uptime: *%uptime* (*%muptime*)
+➼ Database: %rtotalreg of %totalreg
+➼ Instagram: https://bit.ly/3uG9eF4
+➼ Whatsapp: https://wa.me/6285875158363
+➼ Youtube: https://bit.ly/3r66YEX
+ᐉ────
 %readmore`
     let header = conn.menu.header || 'ཧ─「 %category 」'
     let body   = conn.menu.body   || '➣ • %cmd%islimit'
